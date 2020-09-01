@@ -14,7 +14,9 @@ class Arreglo
    $this->Array[i] = rand();
   }
  }
- public function ordena();
+ public function ordena(){
+  asort($Arreglo);
+ }
  public function cuenta();
  public function medVar();
  public function mostrar();
